@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>手风琴切换</title>
+		<style type="text/css">
+			body,div,ul,li,p{margin: 0;padding: 0;}
+			body{background: #000;}
+			.box{                                 /*200X150*/
+				width: 1180px;
+				height: 280px;
+				border: 5px solid #fff;
+				margin: 100px auto;
+			}
+			.box ul{
+				width: 1500px;
+			}
+			.box ul li{
+				position: relative;
+				width: 196px;
+				height: 280px;
+				border-right: 1px solid #fff;
+				float: left;
+				overflow: hidden;
+				color: #fff;
+				/*transition:all 1s ease-in 0s;*/
+			}
+			.common{
+				width: 980px;
+				margin-top:40px;
+				margin-left:20px;
+			}
+			.common dl{
+				width: 210px;
+				height: 190px;
+				border: 1px solid #fff;
+				float: left;
+				margin:0px 10px ;
+			}
+			.common dl dt{
+				padding: 5px;
+			}
+			.common dl dd{
+				text-align:center;
+			}
+			.box ul li p{
+				position: absolute;
+				left: 0;
+				width:100%;
+				height:280px;
+				text-align: center;
+				line-height: 280px;
+				background: rgba(0,0,0,0.5);
+				/*transition:all 1s ease-in 0s; */
+			}
+			/*.box ul:hover li{
+				width: 40px;
+			}
+			.box ul li:hover{
+				width:980px;
+			}*/
+			.box ul li p.p1{
+				top:0px;
+			}
+			.box ul li p.p2{
+				bottom:0px;
+			}
+			/*.box ul li:hover p{
+				height: 40px;
+				line-height: 40px;
+			}*/
+			
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<ul>
+				<li style="background:#5E9DC1;">
+					<div class="common">
+						<dl>
+							<dt><img src="images/b1.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/b2.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/b3.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/b4.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+					</div>
+					<p class="p1">IT精英</p>
+					<p class="p2">IT精英</p>
+				</li>
+				<li style="background:#987370;">
+					<div class="common">
+						<dl>
+							<dt><img src="images/c1.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/c2.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/c3.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/c4.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+					</div>
+					<p class="p1">IT精英</p>
+					<p class="p2">IT精英</p>
+				</li >
+				<li style="background:#F69EC8;">
+					<div class="common">
+						<dl>
+							<dt><img src="images/q1.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q2.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q3.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q4.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+					</div>
+					<p class="p1">IT精英</p>
+					<p class="p2">IT精英</p>
+				</li>
+				<li style="background:#317646;">
+					<div class="common">
+						<dl>
+							<dt><img src="images/x1.png"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/x2.png"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/x3.png"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/x4.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+					</div>
+					<p class="p1">IT精英</p>
+					<p class="p2">IT精英</p>
+				</li>
+				<li style="background:#5E9DC1;">
+					<div class="common">
+						<dl>
+							<dt><img src="images/y1.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/y2.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/y3.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/y4.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+					</div>
+					<p class="p1">IT精英</p>
+					<p class="p2">IT精英</p>
+				</li>
+				<li style="background:#FE5000;">
+					<div class="common">
+						<dl>
+							<dt><img src="images/z1.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/z2.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/z3.png"></dt>
+							<dd>网页制作</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/z4.jpg"></dt>
+							<dd>网页制作</dd>
+						</dl>
+					</div>
+					<p class="p1">IT精英</p>
+					<p class="p2">IT精英</p>
+				</li>
+			</ul>
+		</div>
+		<script src="jquery-3.1.1.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("li").mouseover(function(){
+					$(this).stop().animate({"width":"980px"},1000);
+					$(this).siblings().stop().animate({"width":"40px"},1000);
+					$(this).siblings().children("p").stop().animate({"height":"280px","lineHeight":"280px"},1000);
+					$(this).children("p").stop().animate({"height":"40px","lineHeight":"40px"},1000);
+				})
+				$("li").mouseout(function(){
+					$("li").stop().animate({"width":"196px"},1000);
+					$("p").stop().animate({"height":"280px","lineHeight":"280px"},1000);
+				})
+			})
+		</script>
+	</body>
+</html>
